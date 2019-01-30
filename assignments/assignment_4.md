@@ -34,7 +34,7 @@ print('empty dictionary', myDict)
 # go through the lines of the file
 for line in content:
     # this code runs for each element in the list (content is a list)
-    print ('line ', count, line)
+    print ('dictionary is now', myDict)
     # you will need to add code here that processes the line
     # that is, taking the value (after the colon) and turning it into a number
     # and setting a key-value property on 
