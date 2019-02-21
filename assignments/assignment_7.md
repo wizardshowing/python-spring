@@ -20,6 +20,8 @@ Before working on this assignment, read the following:
 
 For this assignment it is required to impress me :). Use [this Glasdoor.com dataset](datasets/glassdoor.csv) to create interesting/usefull visualizations with Matplotlib.
 
+> Link to dataset in raw format (to copy/paste): [https://raw.githubusercontent.com/JoostImpink/python-spring/master/assignments/datasets/glassdoor.csv](https://raw.githubusercontent.com/JoostImpink/python-spring/master/assignments/datasets/glassdoor.csv)
+
 ## Glassdoor dataset
 
 The dataset consists of 438 ratings for employees of Florida offices of the 8 largest Audit firms. Reviews were downloaded summer 2017. 
