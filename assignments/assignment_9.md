@@ -127,7 +127,7 @@ The following function returns the most significant digit of a number
 def mostSig(x):
 	# turn number to string, and take the first character, then transform back to integer
 	return int(str(x)[0]) 
-``
+```
 
 The following code generates the expected frequency of each leading digit as per Benford's law:
 
