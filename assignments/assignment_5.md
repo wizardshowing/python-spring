@@ -34,3 +34,5 @@ December,60000,2500
 ```
 
 Load the dataset and run the regression where revenue is explained by advertising.
+
+> Note: `result.summary()` will display a warning (in a red box) that the sample size is small; this warning can be safely ignored
