@@ -68,3 +68,30 @@ for line in content[1:]:
     
 print('company', company, 'work life balance', worklife, 'culture', culture)  
 ```
+
+Use the following code to make  separate lists for each audit firm:
+
+```python
+# needed for enumerate function
+import enum
+
+# create key->value pairs for each audit firm
+# where each value is a list of all the scores (culture, or worklife, etc)
+# e.g. 'ey' = [ 4, 3, 5, ... ]
+dictCulture = {}
+dictWorkLife = {}
+
+for i,co in enumerate(company):
+    # i is a counter (0, 1, 2, ...) and co the audit firm name ('ey', 'pwc', etc)    
+    # check if there is already an entry for the audit firm
+    if (not co in dictCulture):
+        # if not, create an empty list for culture and worklife for this audit firm
+        dictCulture[co] = []
+        dictWorkLife[co] = []
+    # add to dictionaries
+    dictCulture[co].append(culture[i])
+    dictWorkLife[co].append(worklife[i])    
+    
+print('culture scores for kpmg', dictCulture['kpmg'])
+print('work-life scores for crowe', dictWorkLife['crowe'])
+```
